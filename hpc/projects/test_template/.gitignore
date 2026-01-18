@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Binaries
+*.o
+*.out
+*.bin
+*.exe
+
+# Logs
+*.log
+*.err
+
+# Editor
+.vscode/
