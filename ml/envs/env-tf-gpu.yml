@@ -1,0 +1,8 @@
+name: tf-gpu
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - tensorflow==2.20.0

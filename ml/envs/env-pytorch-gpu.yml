@@ -1,0 +1,10 @@
+name: pytorch-gpu
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio

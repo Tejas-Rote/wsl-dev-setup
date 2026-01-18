@@ -1,0 +1,25 @@
+# Data & outputs
+data/
+datasets/
+outputs/
+checkpoints/
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda / env
+miniconda3/
+.conda/
+.env
+
+# OS
+.DS_Store
