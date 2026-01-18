@@ -1,0 +1,55 @@
+# ===== Build artifacts =====
+build/
+**/build/
+dist/
+out/
+bin/
+obj/
+
+*.o
+*.so
+*.a
+*.dll
+*.exe
+.vscode
+
+# ===== HPC / logs =====
+**/*.out
+**/*.err
+**/*.log
+slurm-*.out
+slurm-*.err
+
+scratch/
+tmp/
+results/
+outputs/
+checkpoints/
+
+# ===== Python / ML =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ===== Conda =====
+miniconda3/
+.conda/
+.env
+
+# ===== Data / models =====
+data/
+datasets/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# ===== OS / editor =====
+.DS_Store
+*.swp
+*.swo
